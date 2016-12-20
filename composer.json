@@ -1,0 +1,30 @@
+{
+    "name": "yuloh/open",
+    "type": "library",
+    "description": "Open a file or url in the default app",
+    "keywords": [
+        "yuloh",
+        "open"
+    ],
+    "homepage": "https://github.com/yuloh/open",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Allan",
+            "email": "matthew.james.allan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "files": ["src/open.php"]
+    },
+    "scripts": {
+        "cs": "phpcs --standard=psr2 src/"
+    }
+}
